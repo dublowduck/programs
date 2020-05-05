@@ -1,10 +1,11 @@
-#import crap that may be needed
+#import stuff that may be needed
 #from math import *
 #ask the user what they are trying to do
 num1 = input("Enter a number: ")
 num2 = input("Enter another number: ")
 operator = input("Enter an operator: ")
-#calculate the crap that the user entered
+
+#then calculate what the user entered
 
 #if times, then times
 if operator == "*":
@@ -12,7 +13,7 @@ if operator == "*":
 #if division, then divide
 if operator == "/":
     result = int(num1) / int(num2)
-#if addition, that add it together y` ejit
+#if addition, that add it together
 if operator == "+":
     result = float(num1) + float(num2)
 # if subtraction, then take the numbers away from each other
